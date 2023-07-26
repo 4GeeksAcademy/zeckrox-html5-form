@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Form</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form class="container">
+<div class="top"><h1>Payment form example</h1></div>
+
+<div class="content">
+<div class="alert">Some fields are missing</div>
+<div class="flexdiv">
+    <div class="inputlabel"><label>Card#</label><input class="flexinput" type="tel" placeholder="XXXX XXXX XXXX XXXX"></div>
+    <div class="inputlabel"><label>CVC#</label><input class="flexinput" type="password" placeholder="0000"></div>
+    <div class="inputlabel"><label>Amount</label><div class="minidiv"><i class="fa-solid fa-dollar-sign"></i><input class="flexinput" type="tel" placeholder="Amount"></div></div>
+</div>
+
+<div class="flexdiv">
+    <div class="inputlabel"><label>First Name</label><input class="flexinput" type="text" ></div>
+    <div class="inputlabel"><label>Last Name</label><input class="flexinput" type="text" ></div>
+    <div class="inputlabel"></div>
+</div>
+<div class="flexdiv">
+    <div class="inputlabel"><label>City</label><input class="flexinput" type="text"></div>
+    <div class="inputlabel"><label>State</label><select class="flexinput"><option>Caracas</option><option>Miami</option></select></div>
+    <div class="inputlabel"><label>Postal Code</label><input class="flexinput" type="tel"></div>
+</div>
+
+<div class="flexdiv">
+    <div class="inputlabel"><p>We accept:</p><div class="cardicons"><i class="fa-brands fa-cc-mastercard"></i><input type="radio" name="cc"><i class="fa-brands fa-cc-visa"></i><input type="radio" name="cc"><i class="fa-brands fa-cc-diners-club"></i><input type="radio" name="cc"><i class="fa-brands fa-cc-amex"></i><input type="radio" name="cc"></div></div>
+    <div class="inputlabel superdiv"><label>Message</label><textarea class="flexinput" placeholder="It's responsive, try it!"></textarea></div>
+</div>
+
+
+
+</div>
+
+<div class="bottom"><input type="button" value="Cancel"><input type="submit" value="Send"></div>
+
+
+
+</form>
+<script src="https://kit.fontawesome.com/c8266789cf.js" crossorigin="anonymous"></script>
+</body>
+</html>
